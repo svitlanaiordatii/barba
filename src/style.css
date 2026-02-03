@@ -59,14 +59,21 @@ footer {
   font-size: 14px;
 }
 
-h1 {
+section {
+  min-height: calc(100vh - 130px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1, h2 {
   font-size: 3.2em;
   line-height: 1.1;
   color: white;
 }
 
 @media (max-width: 600px) {
-  h1 {
+  h1, h2 {
     font-size: 2em;
   }
 }
