@@ -35,12 +35,15 @@ body {
 }
 
 nav {
-  padding: 20px 40px;
+  padding: 0 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
   align-items: center;
   border-bottom: 1px solid rgba(247, 248, 248, 0.1);
+}
+
+nav a {
+  padding: 20px;
 }
 
 main {
